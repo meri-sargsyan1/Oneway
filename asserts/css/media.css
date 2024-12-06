@@ -1,3 +1,13 @@
+@media screen and (max-width:1280px){
+    .flrx-item input{
+        max-width: 610px;
+    }
+    .form-itemContent{
+        width: 64%;
+    }
+}
+
+
 @media screen and (max-width:1200px) {
     .content-Left {
         margin-left: 75px !important;
@@ -18,7 +28,16 @@
         flex-direction: column;
     }
 }
-
+@media screen and (max-width:992px){
+    .content-blockItem{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px 0;
+    }
+    .form-itemContent {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width:991px) {
     .navbar-collapse {
@@ -36,6 +55,7 @@
         width: 100%;
         min-height: 16px;
     }
+   
 
     /* .raight-contanier {
         width: 100%;
@@ -96,4 +116,11 @@
         display: none !important;
     }
 
+}
+@media screen and (max-width:380px){
+    .contentMartin img{
+        width: 37px;
+        height: 35px;
+    }
+    
 }

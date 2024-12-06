@@ -147,11 +147,11 @@ a {
     max-width: 116px;
     width: 100%;
     min-height: 65px;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 
 }
 
@@ -160,7 +160,7 @@ a {
     width: 100%;
     min-height: 21px;
 
-  
+
 
 
 }
@@ -188,7 +188,7 @@ a {
     max-width: 115px;
     width: 100%;
     min-height: 65px;
- 
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,7 +199,7 @@ a {
     max-width: 115px;
     width: 100%;
     min-height: 65px;
-  
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -680,14 +680,168 @@ form {
     min-height: 74px;
 }
 
+.contant-sectionTwo {
+    margin-bottom: 60px;
+}
+
+.contentMartin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 5px;
+}
+
+.contentMartin h1 {
+    font-size: clamp(24px, 5vw, 40px);
+    font-weight: 700;
+    line-height: 46.88px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.content-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: #FBFBFB;
+    box-shadow: 0px 0px 15px 2px #1DA99D80;
+    margin-top: 71px;
+    padding: 40px 30px 40px 30px;
+
+}
+
+.content-blockItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.content-btn {
+    width: 100%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.labelText {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #212121;
+
+}
+
+.form-item input,
+.form-itemContent input {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #929292;
+    padding: 15px 16px 15px 16px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px 0;
+}
+
+.form-itemContent {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    width: 100%;
+}
+
+.flrx-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 780px;
+    width: 100%;
+    gap: 8px 0;
+}
+
+.inputItemOne {
+    max-width: 335px;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #00000033;
+    border: none;
+    outline: none;
+}
+
+.flrx-item input {
+    max-width: 780px;
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #00000033;
+}
 
 
+.form-itemContent button {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: #1DA99D;
+    border: solid 1px #1DA99D;
+}
 
-
-
-
-
-
+.content-btn button {
+    max-width: 331px;
+    width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    background: #1DA99D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    border: solid 1px #1DA99D;
+}
 
 
 
